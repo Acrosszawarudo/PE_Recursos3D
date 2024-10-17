@@ -1,0 +1,22 @@
+{
+  "name": "vtour_3dmodels",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "vite build",
+    "preview": "npx vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "three": "^0.168.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "vite": "^5.4.7"
+  }
+}
