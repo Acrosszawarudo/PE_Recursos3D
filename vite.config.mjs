@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
 export default defineConfig({
-    base: "/vtour_3dmodels/",
+    base: "/PE_Recursos3D/",
     build: {
         rollupOptions: {
             input: {
