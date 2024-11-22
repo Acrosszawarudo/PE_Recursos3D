@@ -43,11 +43,11 @@ loader.setDRACOLoader(dracoLoader);
 modelPath = `./models/${modelName}.glb`;
 if (modelName == "Copey_GLB") {
     camera.position.set(2, 0, 2);
-    camera.fov = 65;
-    camPosition = new THREE.Vector3(0, 1, 5);
+    camera.fov = 60;
+    camPosition = new THREE.Vector3(0, 1, 0);
 } else {
-    camera.position.set(2, 0, 5);
-    camera.fov = 65;
+    camera.position.set(2, 0, 2);
+    camera.fov = 60;
     camPosition = new THREE.Vector3(0, 1, 0);
 }
 
