@@ -42,12 +42,12 @@ let camPosition;
 loader.setDRACOLoader(dracoLoader);
 modelPath = `./models/${modelName}.glb`;
 if (modelName == "Copey_GLB") {
-    camera.position.set(2, 0.1, 2); // Cámara más lejos
-    camera.fov = 50; // Zoom moderado
-    camPosition = new THREE.Vector3(0, 1, 0); // Ajusta el objetivo al exterior del modelo
+    camera.position.set(2, 0.1, 2);
+    camera.fov = 65;
+    camPosition = new THREE.Vector3(5, 1, 5);
 } else {
-    camera.position.set(2, 0.1, 2); // Más lejos para otros modelos
-    camera.fov = 50; // Más abierto para otros
+    camera.position.set(2, 0.1, 2);
+    camera.fov = 65;
     camPosition = new THREE.Vector3(0, 1, 0);
 }
 
