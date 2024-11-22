@@ -45,7 +45,7 @@ if (modelName == "Copey_GLB") {
     camera.position.set(0.5, 3, 0.5); // Cámara más cerca del modelo Copey_GLB
     camPosition = new THREE.Vector3(0.2, 4, 0);
 } else {
-    camera.position.set(1.5, 2, 1.5); // Cámara más cerca para otros modelos
+    camera.position.set(0.5, 3, 0.5); // Cámara más cerca para otros modelos
     camPosition = new THREE.Vector3(0, 0, 0);
 }
 
